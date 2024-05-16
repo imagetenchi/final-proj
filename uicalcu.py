@@ -482,7 +482,7 @@ def menu():
                 window_10.withdraw()
                 select.deiconify()
 
-            def compute_resistance():
+            def compute_tresistance():
                 aa = float(true_resistivity.get())
                 ab = float(rock_resistivity.get())
                 resistivity_index = aa / ab
@@ -497,7 +497,7 @@ def menu():
             rock_resistivity = tk.Entry(window_10)
             rock_resistivity.grid(row=2, column=1)
 
-            compute = tk.Button(window_10, text="Compute", font="Satoshi", command=compute_resistance)
+            compute = tk.Button(window_10, text="Compute", font="Satoshi", command=compute_tresistance)
             compute.grid(row=4, column=1)
 
             back_button10 = tk.Button(window_10, text="Back", font="Satoshi", command=back10)
