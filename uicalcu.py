@@ -68,7 +68,7 @@ def menu():
                                                "(dyn/cm):", font=("Satoshi", 10, "bold"))
             io_label.grid(row=1, column=0)
 
-            iw_label = tk.Label(window_2, text="Enter value of Oil Spontaneous Imbibition Ratio "
+            iw_label = tk.Label(window_2, text="Enter value of Water Spontaneous Imbibition Ratio "
                                                "(dyn/cm):", font=("Satoshi", 10, "bold"))
             iw_label.grid(row=2, column=0)
 
